@@ -34,7 +34,7 @@ for index, row in data.iterrows():
         list_two.append(row)
 
 
-col_three, empty, col_four = stream.columns([1, 0.25, 1])
+col_three, empty, col_four = stream.columns([1, 0.33, 1])
 
 with col_three:
     for item in list_one:
